@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424;git push -u origin main */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,6 +34,9 @@ a:hover {
   padding: 0.2rem 1rem;
   border-radius: 5px;
 }
+.btn:disabled {
+  background: #ccc;
+}
 
 .input {
   border: 1px solid #ccc;
@@ -46,10 +49,10 @@ a:hover {
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  /* :root {
     color: #213547;
     background-color: #ffffff;
-  }
+  } */
   a:hover {
     color: #747bff;
   }
